@@ -4,7 +4,7 @@
 
 Création de l'environnement virtuel:
 ```sh
-python3 -m venv --python=python3.11.7 .tensorflow_venv
+python3 -m venv .tensorflow_venv
 ```
 
 Activation de l'environnement virtuel:
