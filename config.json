@@ -3,7 +3,6 @@
         "file": "./data/dataset.pickle",
         "dir": "./data",
         "size": 100,
-        "invert_duplicate": true,
         "definition": {
             "0": "Pierre", 
             "1": "Feuille",
