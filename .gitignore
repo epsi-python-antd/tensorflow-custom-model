@@ -1,0 +1,8 @@
+# Do not save images
+data/*/*
+
+# Do not save virtual environment
+*venv*/
+
+# macOS
+.DS_Store
