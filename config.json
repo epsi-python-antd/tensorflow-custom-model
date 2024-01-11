@@ -2,7 +2,7 @@
     "dataset": {
         "file": "./data/dataset.pickle",
         "dir": "./data",
-        "size": 100,
+        "size": 500,
         "definition": {
             "0": "Pierre - Droite",
             "1": "Feuille - Droite",
@@ -14,5 +14,19 @@
     },
     "model": {
         "file": "./data/model.p"
+    },
+    "ui": {
+        "rectangle": {
+            "color": [215, 25, 190],
+            "thickness": 4,
+            "padding": 20
+        },
+        "text": {
+            "color": [240, 240, 240],
+            "font_thickness": 2,
+            "font_scale": 1,
+            "padding": 10,
+            "margin": 5
+        }
     }
 }
