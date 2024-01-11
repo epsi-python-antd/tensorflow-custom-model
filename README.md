@@ -26,7 +26,6 @@ La configuration se trouve dans le fichier `config.json`.
 - `file`: Chemin vers le fichier de l'ensemble de données.
 - `dir`: Répertoire où se trouvent les images.
 - `size`: Taille de l'ensemble de données pour une définition.
-- `invert_duplicate`: Dupliquer et inverser une image sur l'axe horizontal *(la taille de l'ensemble de données double)*.
 - `definition`: Un dictionnaire qui définit les catégories de l'ensemble de données. La clé est le nom du dossier qui est créé, et la valeur est le nom affiché sur la caméra.
 
 ## Modèle (`model`)
