@@ -4,9 +4,12 @@
         "dir": "./data",
         "size": 100,
         "definition": {
-            "0": "Pierre", 
-            "1": "Feuille",
-            "2": "Ciseaux"
+            "0": "Pierre - Droite",
+            "1": "Feuille - Droite",
+            "2": "Ciseaux - Droite",
+            "3": "Pierre - Gauche",
+            "4": "Feuille - Gauche",
+            "5": "Ciseaux - Gauche"
         }
     },
     "model": {
