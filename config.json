@@ -12,6 +12,17 @@
             "5": "Ciseaux - Gauche",
             "6": "BANG BANG",
             "7": "BANG BANG"
+        },
+        "show_images": true,
+        "images": {
+            "0": "./layers/rock.png",
+            "1": "./layers/paper.png",
+            "2": "./layers/scissors.png",
+            "3": "./layers/rock.png",
+            "4": "./layers/paper.png",
+            "5": "./layers/scissors.png",
+            "6": "./layers/bang.png",
+            "7": "./layers/bang.png"
         }
     },
     "model": {
