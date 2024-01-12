@@ -1,6 +1,6 @@
 # Notre super modèle
 
-### Environnement virtuel
+## Environnement virtuel
 
 Création de l'environnement virtuel:
 ```sh
@@ -17,22 +17,22 @@ Désactivation de l'environnement virtuel:
 deactivate
 ```
 
-### Configuration
+## Configuration
 
 La configuration se trouve dans le fichier `config.json`.
 
-## Ensemble de données (`dataset`)
+### Ensemble de données (`dataset`)
 
 - `file`: Chemin vers le fichier de l'ensemble de données.
 - `dir`: Répertoire où se trouvent les images.
 - `size`: Taille de l'ensemble de données pour une définition.
 - `definition`: Un dictionnaire qui définit les catégories de l'ensemble de données. La clé est le nom du dossier qui est créé, et la valeur est le nom affiché sur la caméra.
 
-## Modèle (`model`)
+### Modèle (`model`)
 
 - `file`: Chemin vers le fichier du modèle.
 
-### Utilisation des scripts
+## Utilisation des scripts
 
 - **0-dependencies.ipynb**
 
