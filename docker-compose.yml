@@ -1,0 +1,21 @@
+version: "3"
+services:
+  jupyter:
+    build: .
+    ports:
+      - "3000:8888"
+    devices:
+      - /dev/video0:/dev/video0
+    environment:
+      - "DISPLAY=${DISPLAY}"
+      - "QT_QPA_PLATFORM=wayland"
+      - "XDG_RUNTIME_DIR=/run/user/1000"
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000:/run/user/1000
+      - ./layers:/home/jupyter/layers
+      - ./data:/home/jupyter/data
+      - ./config.json:/home/jupyter/config.json
+    security_opt:
+      - "seccomp:unconfined"
+    privileged: true
